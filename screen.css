@@ -1,7 +1,7 @@
 @media screen  and (max-width:1024px){
     header{
         grid-column: 1/4;
-        padding: 10px 2vw 0px 2vw;
+        padding: 10px 2rem 0px 2vw;
     }
     .article > img{
         width: 100%;
@@ -27,16 +27,45 @@
     .bubble{
         text-align: center;
     }
+    .article > div{
+        text-align: center;
+    }
 }
 
 @media screen  and (max-width:768px){
-    header{
-
+    html{
+        font-size: 80%;
     }
-        header > button{
-            width: auto;
-            padding: 0vw 2vw 0vw 2vw;
+    .middle_section{
+        padding-top: 4em;
+    }
+    .bubble{
+        font-size: 1rem;
+        min-width: 100%;
+    }
+        .bubble > h3{
+            text-align: center;
+            font-size: 1.6em;
         }
+    #top_section{
+        padding: 0px;
+    }
+    header{
+        padding-top: 2rem;
+    }
+        .btn_white{
+            width: auto;
+            padding: 0vw 1em 0vw 1em;
+        }
+        header > img{
+            width: 80%;
+        }
+    .container_column{
+        margin-top: 5em;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
     .article{
         grid-template-columns: 100%;
         grid-template-rows: auto auto;
@@ -45,7 +74,7 @@
             grid-row: 1;
         }
     footer{
-        padding: 30vw 5vw 5vw 5vw;
+        padding: 35vw 5vw 5vw 5vw;
         grid-template-rows: auto auto auto;
         place-items: center;
     }
