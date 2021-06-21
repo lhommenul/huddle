@@ -1,6 +1,6 @@
 /* =========================== RESET CSS =========================== */
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&family=Public+Sans:wght@400;500;600;700&display=swap');
-html{ font-size: 100%; --default_font_std: 'Public Sans', sans-serif;--default_font_title:'Lato', sans-serif}
+html{ font-size: 100%; --default_font_std: 'Open Sans', sans-serif;--default_font_title: 'Poppins', sans-serif;}
 *{ margin: 0px; padding: 0px; font-family: var(--default_font_std)}
 ul{ list-style: none; }
 p{ font-size: 1rem; line-height: 1.5em; }
@@ -92,6 +92,11 @@ main{
     justify-content: center;
     padding: 7vw;
 }
+    .cards_section p{
+        font-family: var(--default_font_std);
+        color: #808E9A;
+
+    }
     .cards{
         border-radius:1em;
         box-shadow: 4px 4px 6px rgb(221, 221, 221);
